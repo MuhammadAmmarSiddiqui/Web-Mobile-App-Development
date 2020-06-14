@@ -29,8 +29,8 @@ var ticket_price = 600;
 document.write("Total cost to buy 5 tickets is " + ticket_price * 6 +"<br><br>");
 
 var table = 4;
-for ( var i = 0; i<=10; i++){
-    document.write("4 x 1 =" + table * i + "<br>");
+for ( var i = 1; i<=10; i++){
+    document.write("4 x " + i + " =" + table * i + "<br>");
 }
 document.write("<br><br>");
 
@@ -98,7 +98,7 @@ document.write("Favourite Snack : " + snack + "<br>");
 document.write("Current age : " + Current_age + "<br>");
 document.write("Estimated Maximum Age : " + Max_age + "<br>")
 document.write("Amount of snacks per day : 3<br>");
-document.write("You will need " + ((Max_age - Current_age) * amount) + snack + " to last you until the ripe age of " + Max_age + "<br>");
+document.write("You will need " + ((Max_age - Current_age) * amount) + snack + " to last you until the ripe age of " + Max_age + "<br><br>");
 
 
 
